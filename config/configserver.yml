@@ -6,6 +6,9 @@ spring:
   cloud:
     config:
       server:
+        my:
+          url: https://github.com/catinred2/beginners-guide-to-spring-cloud
+          searchPaths: mod
         git:
          uri: https://github.com/ryanjbaxter/beginners-guide-to-spring-cloud
          searchPaths: beginners-guide-to-spring-cloud-config
